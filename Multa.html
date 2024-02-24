@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CÁLCULO DE MULTA DO CLIENTE</title>
+    <link rel="stylesheet" href="Multa.css">
+</head>
+
+<body>
+    <form>
+        <div class="formulário">
+            <h1> Multa Do Cliente </h1>
+            
+            <p>
+                Tempo de contrato<input type="number" id="tempContrato">
+            </p>
+            
+            <p>
+                valor do plano<input type="number" min="0" step="0.01" max="10000" id="numValor">
+            </p>
+            
+            <p>
+                <input type="submit" value="Calcular">
+            </p>
+        </div>
+    </form>
+
+    <script src="Multa.js"></script>
+</body>
+
+</html>
