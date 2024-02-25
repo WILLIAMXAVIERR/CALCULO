@@ -21,6 +21,8 @@ h1 {
 
 p {
     margin-bottom: 15px;
+    color: #e7321b;
+    padding: 60;
 }
 
 input[type="number"] {
